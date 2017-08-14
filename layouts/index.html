@@ -28,10 +28,13 @@
 					<a href="https://twitter.com/{{.}}" title="Twitter"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
 					{{ end }}
 					{{ with .Site.Params.GoogleplusID }}
-					<a href="https://plus.google.com/{{.}}/about" title="Google+"><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
+					<a href="https://plus.google.com/{{.}}" title="Google+"><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
 					{{ end }}
 					{{ with .Site.Params.FacebookID }}
 					<a href="https://facebook.com/{{.}}" title="Facebook"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+					{{ end }}
+					{{ with .Site.Params.InstagramID }}
+					<a href="https://instagram.com/{{.}}" title="Instagram"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
 					{{ end }}
 					{{ with .Site.Params.GithubID }}
 					<a href="https://github.com/{{.}}" title="GitHub"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
